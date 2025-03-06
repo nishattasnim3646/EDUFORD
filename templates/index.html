@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <!-- <link rel = "stylesheet" href = "style.css"> -->
+    <link rel ="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href = "index.html"><img src="{% static 'images/logo.png' %}"></a>
+            <div class = "nav-links">
+                <ul>
+                    <li><a href = "">Home</a></li>
+                    <li><a href = "">About</a></li>
+                    <li><a href = "">Courses</a></li>
+                    <li><a href = "">Blog</a></li>
+                    <li><a href = "">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- ............... courses........... -->
+       <section class = "course">
+        <h1>Courses We Offer</h1>
+
+        <p>Using an advanced quality storing algorithm and machine Learning</p>
+
+        <div class = "row">
+            <div class = "course-col">
+                <h3>Sceience</h3>
+                <p>
+                    Adapt with latest Scientific Innovations.
+                </p> 
+            </div>
+
+            <div class = "course-col">
+                <h3>Humanities</h3>
+                <p>
+                    With a view to building briliance in Literature and real world.
+                </p> 
+            </div>
+
+            <div class = "course-col">
+                <h3>Business Studies</h3>
+                <p>
+                    Nature excellence in Business Troops.
+                </p> 
+            </div>
+
+        </div>       
+    </section>
+
+
+       <!-- ...................facilities............. -->
+     <section class = "facilities">
+        <h1> Our Facilities</h1>
+        <p>We offer best chances</p>
+
+        <div class = "row">
+            <div class = "facilities-col">
+                <img src = "{% static 'images/library.png' %}">
+                <h3>Enriched library</h3>
+                <p>Our library has a great number of books</p>
+            </div>
+
+            <div class = "facilities-col">
+                <img src = "{% static 'images/playground.png' %}">
+                <h3>Big Playground</h3>
+                <p>Students have a great opportunity to play
+                </p>
+            </div>
+
+            <div class = "facilities-col">
+                <img src = "{% static 'images/cafeteria.png' %}">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Our food serves wonderful quality.
+                </p>
+            </div>
+
+        </div>
+     </section>
+
+
+     
+
+      <!-- .........footer....... -->
+       <section class="footer">
+        <h4> Abou Us</h4>
+        <p>We are aiming to adopt the latest inventions</p>
+        <div class = "icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+
+        <p> Mode with <i class="fa fa-heart-o"></i> by
+             Tech Code All Rights Reserved</p>
+       </section>
+
+
+</body>
+</html>
